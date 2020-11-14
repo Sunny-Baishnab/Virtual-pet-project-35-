@@ -27,8 +27,9 @@ function draw() {
   drawSprites();
   textSize(20);
   fill("white");
-  text("Note: Press UP_ARROW Key To Feed Drago Milk!",25,50);
   stroke("black");
+  text("Note: Press UP_ARROW Key To Feed Drago Milk!",25,50);
+  text("Food Remaining: "+foodS,25,100);
   //add styles here
   if(keyWentDown(UP_ARROW)){
     writeStock(foodS);
